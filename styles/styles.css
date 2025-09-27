@@ -2,6 +2,23 @@ body {
     font-family: 'Montserrat', sans-serif;
     background-color: #f5f7fa;
 }
+@media (prefers-color-scheme: dark) {
+    body {
+        background: #2a2a2a;
+    }
+    .main-content, .about-name {
+        background: #000 !important;
+    }
+    .title, .my-name, .list-item {
+        color: #ccc !important;
+    }
+    .content, .link, .contact-link {
+        color: #aaa !important;
+    }
+    .brackets, .period {
+        color: #888 !important;
+    }
+}
 @media screen and (min-width: 700px) {
     .main {
         display: flex;
